@@ -1,0 +1,86 @@
+/* Estilos generales para el contenedor de tareas */
+.tareas-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Estilo para el título de la lista */
+  .tareas-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilo para el input y el botón */
+  .tareas-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tareas-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #0070f3;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .tareas-input button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tareas-input button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Estilo para la lista de tareas */
+  .tareas-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tareas-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .tareas-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .tareas-list li span {
+    flex: 1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Estilos para el botón de eliminar */
+  .tareas-list button {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tareas-list button:hover {
+    background-color: #e60000;
+  }
+  
